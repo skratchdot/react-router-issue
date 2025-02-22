@@ -32,6 +32,12 @@ and I set `ssr: false` in the respective framework configs.
 
 After building both apps, the `build` folder output is not what I would expect. In react-router v7, my route files are showing up in `assets` (and not in the rollup entry folder that I configured).
 
+## viewing build output
+
+You can view the different build output in the [builds](./builds/) folder, or on github at:
+
+- <https://github.com/skratchdot/react-router-issue/tree/main/builds>
+
 ## getting started
 
 ```shell
