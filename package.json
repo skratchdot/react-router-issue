@@ -1,0 +1,20 @@
+{
+  "name": "react-router-issue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "help debug a react-router v7 issue with vite",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm run clean; pnpm recursive run --sort --workspace-concurrency 1 build",
+    "clean": "rimraf packages/*/build packages/*/.react-router",
+    "dev": "pnpm recursive run --sort dev",
+    "format": "prettier --check --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af",
+  "dependencies": {
+    "prettier": "^3.5.2",
+    "rimraf": "^6.0.1"
+  }
+}
