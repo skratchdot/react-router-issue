@@ -8,8 +8,8 @@
     "build": "pnpm run clean; pnpm recursive run --sort --workspace-concurrency 1 build; pnpm run copy",
     "clean": "rimraf packages/*/build packages/*/.react-router builds",
     "copy": "pnpm run copy:1; pnpm run copy:2",
-    "copy:1": "mkdir -p builds/react-router-app; cp -r packages/react-router-app/build builds/react-router-app",
-    "copy:2": "mkdir -p builds/remix-app; cp -r packages/remix-app/build builds/remix-app",
+    "copy:1": "mkdir -p builds/react-router-app; cp -r packages/react-router-app/build/client/ builds/react-router-app",
+    "copy:2": "mkdir -p builds/remix-app; cp -r packages/remix-app/build/client/ builds/remix-app",
     "dev": "pnpm recursive run --sort dev",
     "format": "prettier --check --write ."
   },
