@@ -10,6 +10,8 @@ npx create-remix@latest remix-app
 npx create-react-router@latest react-router-app
 ```
 
+(see [remix docs](https://remix.run/docs/en/main/start/quickstart) and [react-router docs](https://reactrouter.com/start/framework/installation))
+
 After that I made `vite.config.ts` changes to both apps:
 
 ```typescript
