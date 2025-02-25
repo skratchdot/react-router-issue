@@ -1,6 +1,10 @@
 # react-router-issue
 
-This monorepo contains 2 packages/apps created in different ways: one with remix v2, and one with react-router v7.
+This monorepo was created to help log a github issue:
+
+- <https://github.com/remix-run/react-router/issues/13091>
+
+It contains 2 packages/apps created in different ways: one with remix v2, and one with react-router v7.
 
 The steps I took were:
 
