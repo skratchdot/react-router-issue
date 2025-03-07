@@ -58,3 +58,9 @@ you can also run both apps via:
 ```shell
 pnpm dev
 ```
+
+## the fix
+
+When version 7.3.0 was published, the issue was fixed. You can see the update in this repo by viewing the following commit (which updates from v7.2.0 to v7.3.0):
+
+- <https://github.com/skratchdot/react-router-issue/commit/aadf4d8275b037020bcc97f6bef8587bef1947e6>
